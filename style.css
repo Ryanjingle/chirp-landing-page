@@ -1,0 +1,62 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'inter';
+}
+
+header {
+    background-color: rgb(247, 241, 234);
+    height: 600px;
+}
+
+/* Nav */
+
+.nav-container > div {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    padding: 10px 60px;
+}
+
+#chirp {
+    flex: 2;
+    font-style: italic;
+    color: #1da1f2;
+    font-size: 16px;
+}
+
+#links {
+    word-spacing: 12px;
+    font-size: 14px;
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+/* Twitter Sign in Bar below */
+
+#twit {
+    background: #1da1f2;
+    margin-left: 15px;
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+
+#nav-img {
+    width: 15px;
+    height: auto;
+    margin-bottom: -2px;
+    margin-right: 3px;
+}
+
+.sign-in {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'inter';
+    font-weight: 500;
+}
