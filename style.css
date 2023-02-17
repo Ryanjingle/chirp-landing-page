@@ -7,7 +7,7 @@ body {
 
 header {
     background-color: rgb(247, 241, 234);
-    height: 600px;
+    height: 700px;
 }
 
 /* Nav */
@@ -16,7 +16,7 @@ header {
     display: flex;
     flex: 1;
     align-items: center;
-    padding: 10px 60px;
+    padding: 10px 140px;
 }
 
 #chirp {
@@ -27,7 +27,7 @@ header {
 }
 
 #links {
-    word-spacing: 12px;
+    word-spacing: 16px;
     font-size: 14px;
 }
 
@@ -39,18 +39,18 @@ a {
 
 /* Twitter Sign in Bar below */
 
-#twit {
+#nav-sign-in {
     background: #1da1f2;
-    margin-left: 15px;
-    padding: 8px 12px;
+    margin-left: 20px;
+    padding: 6px 12px 8px 12px;
     border-radius: 3px;
 }
 
-#nav-img {
+#blue-img {
     width: 15px;
     height: auto;
     margin-bottom: -2px;
-    margin-right: 3px;
+    margin-right: 5px;
 }
 
 .sign-in {
@@ -59,4 +59,75 @@ a {
     font-size: 12px;
     font-family: 'inter';
     font-weight: 500;
+}
+
+/* left hero section */
+
+.hero-container {
+    display: flex;
+    padding: 10px 140px;
+}
+
+.left-hero {
+    margin-right: 40px;
+    padding-top: 20px;
+}
+
+h1 {
+    width: 440px;
+    font-size: 42px;
+    margin-bottom: -10px;
+}
+
+p {
+    color: grey;
+    font-weight: 300;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+#hero-sign-in {
+    background: #1da1f2;
+    padding: 10px 14px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+#blue-img-hero {
+    width: 15px;
+    height: auto;
+    margin-bottom: -2px;
+    margin-right: 5px;
+}
+
+#learn-more {
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba(71, 122, 203, 0.950);
+}
+
+#face-container {
+    margin-left: 30px;
+}
+
+.faces {
+    margin-top: 30px;
+    margin-left: -30px;
+}
+
+span {
+    color: rgba(71, 122, 203, 0.950);
+    font-weight: 500;
+}
+
+
+
+
+
+/* right hero section */
+
+
+#hero-img {
+    width:340px;
+    height: auto;
 }
