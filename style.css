@@ -12,7 +12,7 @@ header {
 
 /* Nav */
 
-.nav-container > div {
+#nav-container > div {
     display: flex;
     flex: 1;
     align-items: center;
@@ -63,12 +63,12 @@ a {
 
 /* left hero section */
 
-.hero-container {
+#hero-container {
     display: flex;
     padding: 10px 140px;
 }
 
-.left-hero {
+#left-hero {
     margin-right: 40px;
     padding-top: 20px;
 }
@@ -122,12 +122,43 @@ span {
 
 
 
-
-
 /* right hero section */
 
 
 #hero-img {
     width:340px;
     height: auto;
+}
+
+/* sub hero */
+
+
+h2 {
+    padding: 40px 140px 0 140px;
+    width: 300px;
+}
+
+.feature-container > div{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 140px 60px 140px;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+#feature-content > div {
+    border: 1px rgba(39, 37, 37, 0.254) solid;
+    width: 460px;
+    border-radius: 3px;
+    padding: 12px;
+}
+
+.emoji {
+    font-size: 22px;
+}
+
+#weird-emoji {
+    font-size: 32px;
+    margin-top: 20px;
+    margin-bottom: -12px;
 }
