@@ -162,3 +162,87 @@ h2 {
     margin-top: 20px;
     margin-bottom: -12px;
 }
+
+/* customer section */
+
+#section2-container {
+    background: #ddfcfe;
+    height: 500px;
+}
+
+#customer-title {
+    padding-top: 60px;
+}
+
+#tweet-container {
+    display: flex;
+    column-gap: 20px;
+    margin: 40px 140px;
+}
+
+.twitter-head {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.twitter-foot {
+    display: flex;
+}
+
+.name-tag {
+    margin-right: 135px;
+}
+
+.twitter-name {
+    margin-bottom: -15px;
+}
+
+.twitter-tag {
+    font-size: 12px;
+}
+
+#jack {
+    background: white;
+    padding: 0px 15px;
+    width: 300px;
+    border-radius: 3px;
+    height: 300px;
+}
+
+#sara {
+    background: white;
+    padding: 0px 15px;
+    width: 300px;
+    border-radius: 5px;
+    height: 200px;
+}
+
+#jessica {
+    background: white;
+    padding: 0px 15px;
+    width: 300px;
+    border-radius: 3px;
+    height: 200px;
+}
+
+.jessica-sara-foot {
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+#jack-foot {
+    display: flex;
+    margin-top: 90px;
+    justify-content: space-between;
+}
+
+.likes {
+    margin-right: 150px;
+}
+
+
+
+
+
