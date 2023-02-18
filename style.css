@@ -19,7 +19,7 @@ header {
     padding: 10px 140px;
 }
 
-#chirp {
+.chirp {
     flex: 2;
     font-style: italic;
     color: #1da1f2;
@@ -317,6 +317,26 @@ h2 {
 
 #trial-bird {
     width: 18px;
+}
+
+/* footer */ 
+
+#footer-container {
+    height: 60px;
+    background: #ddfcfe;
+    padding: 0px 140px;
+    display: flex;
+    align-items: center;
+}
+
+#footer-text {
+    display: flex;
+    gap: 40px;
+    color: black;
+}
+
+.footer-links {
+    color: black;
 }
 
 
