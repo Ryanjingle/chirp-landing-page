@@ -242,6 +242,83 @@ h2 {
     margin-right: 150px;
 }
 
+/* subscribe section */
+
+#section3-container {
+    text-align: center;
+}
+
+#price-plan {
+    margin: 80px 0 -10px 0;
+    font-size: 24px;
+}
+
+#plan-subtext {
+    color: rgba(0, 0, 0, 0.53);
+    margin-bottom: 60px;
+}
+
+#plan-container {
+    border: 1px solid orange;
+    border-radius: 5px;
+    background: rgba(252, 195, 89, 0.137);
+    width: 320px;
+    height: auto;
+    margin-left: 470px;
+    text-align: left;
+    padding: 20px;
+    margin-bottom: 60px;
+}
+
+#monthly {
+    font-size: 16px;
+    margin-bottom: -20px;
+}
+
+#strong {
+    font-size: 36px;
+    color: rgba(0, 0, 0, 0.931);
+}
+
+
+#price-container {
+    border-bottom: 1px rgba(128, 128, 128, 0.196) solid;
+}
+
+#check-container {
+    border-bottom: 1px rgba(128, 128, 128, 0.196) solid;
+}
+
+.checkmark {
+    width: 16px;
+}
+
+.details {
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+}
+
+#start-trail {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background: #1da1f2;
+    padding: 10px 14px;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+#trial-font {
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+#trial-bird {
+    width: 18px;
+}
+
 
 
 
